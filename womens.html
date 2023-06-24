@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap 5.3.0 Latest Ver Css Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!-- Slick Css Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- Google Api & Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- Local Css File -->
+        <link rel="stylesheet" href="assates\Css\womens.css">
+        <link rel="stylesheet" href="assates\Css\style.css">
+        <!-- themify link -->
+        <link rel="stylesheet" href="assates\Css\themify-icons.css">
+        <!-- Favicon Link -->
+        <link rel="icon" href="assates\Images\favicon_io (4)\favicon.ico">
+        <!-- Font Awesome Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- AOS CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Title -->
+        <title>Facino - Fashion Site</title>
+    </head>
+<body>
+           <!-- Navigation section -->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#" style="color:red; font-size: 1.8rem;">
+             <!-- <b>Facino</b> -->
+             <img src="assates\Images\logo.png" width="50" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa-solid fa-bars navbar-toggler-icon"></span>
+              <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#arrivals">Arrivals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#special">Special</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="mens.html">Mens Fashion</a></li>
+                    <li><a class="dropdown-item" href="womens.html">Womens Fashion</a></li>
+                    <li><a class="dropdown-item" href="kids.html">Kids Fashion</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </section>
+
+
+        <section class="womens-filter">
+ <div class="d-flex justify-content-center text-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="header">
+          <h3>Womens</h3>
+            <h2><b>ALL Womens Product</b></h2>
+        </div>
+    </div>
+</div>
+   <div class="filter-section">
+     <ul>
+       <li data-filter="all" class="active">All</li>
+       <li data-filter="saree">Sarees</li>
+       <li data-filter="grown">Growns</li>
+       <li data-filter="lahenga">Lahengas</li>
+       <li data-filter="top-wear">Top wear</li>
+       <li data-filter="inner-top">Inner-Top</li>
+       <li data-filter="inner-bottom">Inner Bottom</li>
+     </ul> 
+     <div class="products">
+       <!-- Sarees -->
+       <div class="product col-lg-3" data-filter="saree" >
+         <div class="dress">
+           <img src="assates\Images\womens\Saree\saree1.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Product Title</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+          <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+
+       <div class="product col-lg-3" data-filter="saree" >
+        <div class="dress">
+          <img src="assates\Images\womens\Saree\saree2.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      
+      <div class="product col-lg-3" data-filter="saree" >
+        <div class="dress">
+          <img src="assates\Images\womens\Saree\saree3.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+<!-- Grown -->
+      <div class="product col-lg-3" data-filter="grown" >
+        <div class="dress">
+          <img src="assates\Images\womens\Grown\grown1.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <div class="product col-lg-3" data-filter="grown" >
+        <div class="dress">
+          <img src="assates\Images\womens\Grown\grown2.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <div class="product col-lg-3" data-filter="grown" >
+        <div class="dress">
+          <img src="assates\Images\womens\Grown\grown4.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      <!-- Lahenga -->
+      <div class="product col-lg-3" data-filter="lahenga" >
+        <div class="dress">
+          <img src="assates\Images\womens\Lahenga\lahenga6.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <div class="product col-lg-3" data-filter="lahenga" >
+        <div class="dress">
+          <img src="assates\Images\womens\Lahenga\lahenga2.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <div class="product col-lg-3" data-filter="lahenga" >
+        <div class="dress">
+          <img src="assates\Images\womens\Lahenga\lahenga3.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <!-- Top Wear -->
+      <div class="product col-lg-3" data-filter="top-wear" >
+        <div class="dress">
+          <img src="assates\Images\womens\Tops\women-top1.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <div class="product col-lg-3" data-filter="top-wear" >
+        <div class="dress">
+          <img src="assates\Images\womens\Tops\women-top2.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <div class="product col-lg-3" data-filter="top-wear" >
+        <div class="dress">
+          <img src="assates\Images\womens\Tops\women-top3.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+
+      <!--Inner-top -->
+      <div class="product col-lg-3" data-filter="inner-top" >
+        <div class="dress">
+          <img src="assates\Images\womens\Inner-top\inner1.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      <div class="product col-lg-3" data-filter="inner-top" >
+        <div class="dress">
+          <img src="assates\Images\womens\Inner-top\inner2.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      <div class="product col-lg-3" data-filter="inner-top" >
+        <div class="dress">
+          <img src="assates\Images\womens\Inner-top\inner3.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      <!-- Inner-Bottom -->
+      <div class="product col-lg-3" data-filter="inner-bottom" >
+        <div class="dress">
+          <img src="assates\Images\womens\Inner-bottom\bottom-1.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      <div class="product col-lg-3" data-filter="inner-bottom" >
+        <div class="dress">
+          <img src="assates\Images\womens\Inner-bottom\bottom-2.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+      <div class="product col-lg-3" data-filter="inner-bottom" >
+        <div class="dress">
+          <img src="assates\Images\womens\Inner-bottom\bottom-3.jpg" class="img-fluid mt-2" alt="">
+          <h3 class="text-danger">Womens Product Title</h3>
+          <h4>$158 <del>$200</del></h4>
+          <div class="stars mb-3">
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+            <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+          </div>
+         <button type="button" class="btn btn-danger">Add To Cart</button>
+         </div>
+      </div>
+   </div>
+ </section>
+
+
+        
+ <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <img src="assates\Images\logo.png" width="80" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, est, aut adipisci consequatur eligendi corporis facilis vero quas, quo quibusdam sit et nihil itaque repudiandae excepturi eius commodi delectus quis?</p>
+          <h3>We Accept</h3>
+          <div class="card-area">
+            <!-- <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-paypal"></i> -->
+            <img src="assates\Images\all-cards" width="200" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h2>Quick Links</h2>
+            <ul>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Offers</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Arrivals</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Specials</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Cart</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h2>Categories</h2>
+            <ul>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Mens</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Womens</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Kids</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Babies</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h2>NewsLetter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aut iste cupiditate a quia sunt.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter Your Email..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-paper-plane"></i></span>
+          </div>
+          <h2>Follow Us On</h2>
+          <p class="socials">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-quora"></i>
+            <i class="fa-brands fa-"></i>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="p-3 copyright">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+          <p class="my-0">copyright © 2023 <a href="#home">Facino</a> All Right Reserved</p>
+        </div>
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+          <p>Designed By <a href="#">Tathagata Sanyal</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <!-- Bootstrap 5.3.1 Latest Ver Js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Jquery CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Slick Carousel CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Local JS File Link -->
+    <script src="assates\JS\app.js"></script>
+    <script src="assates\JS\productreview.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+
+
+</body>
+</html>

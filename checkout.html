@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap 5.3.0 Latest Ver Css Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!-- Slick Css Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- Google Api & Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- Local Css File -->
+        <link rel="stylesheet" href="assates\Css\checkout.css">
+        <link rel="stylesheet" href="assates\Css\style.css">
+        <!-- themify link -->
+        <link rel="stylesheet" href="assates\Css\themify-icons.css">
+        <!-- Favicon Link -->
+        <link rel="icon" href="assates\Images\favicon_io (4)\favicon.ico">
+        <!-- Font Awesome Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- AOS CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Title -->
+        <title>Facino - Fashion Site</title>
+    </head>
+<body>
+    <div class="container d-flex justify-content-center mt-5 mb-5">
+
+            
+
+        <div class="row g-3">
+
+          <div class="col-md-6">  
+            
+            <span>Payment Method</span>
+            <div class="card">
+
+              <div class="accordion" id="accordionExample">
+                
+                <div class="card">
+                  <div class="card-header p-0" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="d-flex align-items-center justify-content-between">
+
+                          <span>Pay by UPI</span>
+                          <img src="./assates/Images/PhonePe.png" width="100">
+                          /
+                          <img src="assates\Images\Google-Pay-logo.png" width="100">
+                          
+                        </div>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <input type="text" class="form-control" placeholder="Enter UPI Pin">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header p-0">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left p-3 rounded-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="d-flex align-items-center justify-content-between">
+
+                          <span>Credit card</span>
+                          <div class="icons">
+                            <img src="./assates/Images/all-cards" width="200">
+                          </div>
+                          
+                        </div>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body payment-card-body">
+                      
+                      <span class="font-weight-normal card-text">Card Number</span>
+                      <div class="input">
+
+                        <i class="fa fa-credit-card"></i>
+                        <input type="text" class="form-control" placeholder="0000 0000 0000 0000">
+                        
+                      </div> 
+
+                      <div class="row mt-3 mb-3">
+
+                        <div class="col-md-6">
+
+                          <span class="font-weight-normal card-text">Expiry Date</span>
+                          <div class="input">
+
+                            <i class="fa fa-calendar"></i>
+                            <input type="text" class="form-control" placeholder="MM/YY">
+                            
+                          </div> 
+                          
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                          <span class="font-weight-normal card-text">CVC/CVV</span>
+                          <div class="input">
+
+                            <i class="fa fa-lock"></i>
+                            <input type="text" class="form-control" placeholder="000">
+                            
+                          </div> 
+                          
+                        </div>
+                        
+
+                      </div>
+
+                      <span class="text-muted certificate-text"><i class="fa fa-lock"></i> Your transaction is secured with ssl certificate</span>
+                     
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+              <span>Summary</span>
+
+              <div class="card">
+
+                <div class="d-flex justify-content-between p-3">
+
+                  <div class="d-flex flex-column">
+
+                    <span>4 item purchase <i class="fa fa-caret-down"></i></span>
+                    <a href="#" class="billing">Save 20% with Phone pe </a>
+                    
+                  </div>
+
+                  <div class="mt-1">
+                    <sup class="super-price">$181</sup>
+                  </div>
+                  
+                </div>
+
+                <hr class="mt-0 line">
+
+                <div class="p-3">
+
+                  <div class="d-flex justify-content-between mb-2">
+
+                    <span>Free Delivery</span>
+                    <span>-$20.00</span>
+                    
+                  </div>
+
+                  <div class="d-flex justify-content-between">
+
+                    <span>Cupon "FACINO"<i class="fa-solid fa-clock"></i></span>
+                    <span>-20%</span>
+                    
+                  </div>
+                  
+
+                </div>
+
+                <hr class="mt-0 line">
+
+
+                <div class="p-3 d-flex justify-content-between">
+
+                  <div class="d-flex flex-column">
+
+                    <span>You Have To Pay</span>
+                    <small>With Free Delivery</small>
+                    
+                  </div>
+                  <span>$128</span>
+
+                  
+
+                </div>
+
+
+                <div class="p-3">
+
+                    <button type="button" class="btn btn-danger" width="100" data-bs-toggle="modal" data-bs-target="#exampleModal">Confirm your Order</button> 
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Hey There !</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="assates\Images\Order-confirm.gif" class="p-4 gif">
+                              <h3 class="text-center text-success my-2">Thanks For Purchasing</h3>
+                            </div>
+                            <div class="modal-footer">
+                            <a href="index.html"><button type="button" class="btn btn-success" >Continue Shopping</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+               <div class="text-center">
+                 <a href="#">Have a promo code?</a>
+               </div>
+                  
+                </div>
+
+
+
+                
+              </div>
+          </div>
+          
+        </div>
+        
+
+      </div>
+
+ <!-- Bootstrap 5.3.1 Latest Ver Js link -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ <!-- Jquery CDN Link -->
+ <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+ <!-- Slick Carousel CDN Link -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- Local JS File Link -->
+ <script src="assates\JS\cart.js"></script>
+</body>
+</html>

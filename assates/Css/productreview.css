@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* bg color */
+    --bg-danger:#f63440;
+    --bg-white:#fff;
+    --bg-light-white:#f5f5f5 ;
+
+    /* text color */
+    --primary-font: "poppins", sans-serif;
+    --text-white:#fff;
+    --text-black:#121212;
+    --text-danger:#f63440;
+    --text-grey:#aaa;
+    --text-dark-grey:#777;
+}
+
+
+.productreview{
+    padding:6rem 0;
+    background: var(--bg-light-white);
+}
+.small-img-group{
+    justify-content: space-between;
+
+}
+
+.small-img-col{
+    flex-basis:  24%;
+    cursor: pointer;
+}
+
+select{
+    display:block;
+    padding: 5px 10px;
+}
+.p-details .main-img{
+    width: 100%;
+}
+.p-details input{
+    width: 50px;
+    height: 40px;
+    padding-left:10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.p-details input:focus{
+    outline: none;
+}

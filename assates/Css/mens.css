@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* bg color */
+    --bg-danger:#f63440;
+    --bg-white:#fff;
+    --bg-light-white:#f5f5f5 ;
+
+    /* text color */
+    --primary-font: "poppins", sans-serif;
+    --text-white:#fff;
+    --text-black:#121212;
+    --text-danger:#f63440;
+    --text-grey:#aaa;
+    --text-dark-grey:#777;
+}
+
+.mens-filter{
+    width: 100%;
+    margin-top: 5rem;
+}

@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5.3.0 Latest Ver Css Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Slick Css Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Google Api & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="assates\facino_icon\favicon.ico">
+    <!-- Local Css File -->
+    <link rel="stylesheet" href="assates\Css\style.css">
+    <!-- themify link -->
+    <link rel="stylesheet" href="assates\Css\themify-icons.css">
+    <!-- Favicon Link -->
+    <link rel="icon" href="assates\Images\favicon_io (4)\favicon.ico">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Title -->
+    <title>Facino - Fashion Site</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".home">
+
+    <!-- Navigation section -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#" style="color:red; font-size: 1.8rem;">
+               <!-- <b>Facino</b> -->
+               <img src="assates\Images\logo.png" width="50" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#arrivals">Arrivals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#special">Special</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="mens.html">Mens Fashion</a></li>
+                      <li><a class="dropdown-item" href="womens.html">Womens Fashion</a></li>
+                      <li><a class="dropdown-item" href="kids.html">Kids Fashion</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section id="home" class="home pt-5 overflow-hidden">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="home-banner home-banner-1">
+              <div class="home-banner-text">
+              <h1>Womens <br><span class="text-design">Fashion</span></h1>
+             
+              <h2>52% Discount For This Season</h2>
+              <a href="#" class="btn btn-danger text-uppercase mt-4">Our Product</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="home-banner home-banner-2">
+            <div class="home-banner-text">
+            <h1>Mens <br><span class="text-design2">Fashion</span></h1>
+            <h2>30% Discount For This Season</h2>
+            <a href="#" class="btn btn-danger text-uppercase mt-4">Our Product</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="home-banner home-banner-3">
+          <div class="home-banner-text">
+          <h1>Kids <br><span class="text-design3">Fashion</span></h1>
+          <h2>20% Discount For This Season</h2>
+          <a href="#" class="btn btn-danger text-uppercase mt-4">Our Product</a>
+        </div>
+      </div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <span class="fa-solid fa-chevron-left slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <span class="fa-solid fa-chevron-right slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+   <div class="offers"  data-aos="fade-down"
+   data-aos-offset="200"
+   data-aos-delay="50"
+   data-aos-duration="1000"
+   data-aos-easing="ease-in-out"
+   data-aos-mirror="true"
+   data-aos-once="false">
+    <h1 class="text-uppercase text-center mb-4"><b>Offer <span class="text-danger"> Zone</span></b></h1>
+    <div class="container">
+      <div class="row">
+        <!-- first offer section -->
+        <div class="col-sm-6 col-lg-4 mb-lg-o mb-4">
+          <a href="#">
+            <div class="offer-box text-center position-relative">
+              <div class="offer-inmer">
+                <div class="offer-image position-relative overflow-hidden">
+                  <img src="assates\Images\Sale.jpg" class="img-fluid" alt="">
+                  <div class="offer-overlay"></div>
+                </div>
+                <div class="offer-info">
+                  <div class="offer-info-inner">
+                    <p class="heading-bigger text-capitalize">Sale 52%</p>
+                  <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss The Chance</p>
+                  <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                  </div>
+                   </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-lg-o mb-4 d-flex flex-column justify-content-between">
+          <a href="#">
+            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+              <div class="offer-inmer">
+                <div class="offer-image position-relative overflow-hidden">
+                  <img src="assates\Images\Sale3.jpg" class="img-fluid" style="width: 80%;" alt="">
+                  <div class="offer-overlay"></div>
+                </div>
+                <div class="offer-info">
+                  <div class="offer-info-inner">
+                    <p class="heading-bigger text-capitalize">Sale 52%</p>
+                  <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss The Chance</p>
+                  <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                  </div>
+                   </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+              <div class="offer-inmer">
+                <div class="offer-image position-relative overflow-hidden">
+                  <img src="assates\Images\Sale4.jpg" class="img-fluid" style="width: 80%;" alt="">
+                  <div class="offer-overlay"></div>
+                </div>
+                <div class="offer-info">
+                  <div class="offer-info-inner">
+                    <p class="heading-bigger text-capitalize">Sale 52%</p>
+                  <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss The Chance</p>
+                  <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                  </div>
+                   </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-lg-o mb-4">
+          <a href="#">
+            <div class="offer-box text-center position-relative">
+              <div class="offer-inmer">
+                <div class="offer-image position-relative overflow-hidden">
+                  <img src="assates\Images\Sale2.jpg" class="img-fluid" alt="">
+                  <div class="offer-overlay"></div>
+                </div>
+                <div class="offer-info">
+                  <div class="offer-info-inner">
+                    <p class="heading-bigger text-capitalize">Sale 52%</p>
+                  <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss The Chance</p>
+                  <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                  </div>
+                   </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- Arrivals -->
+  <section class="section-products" id="arrivals"  data-aos="fade-down"
+  data-aos-offset="200"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in-out"
+  data-aos-mirror="true"
+  data-aos-once="false">
+		<div class="container">
+				<div class="d-flex justify-content-center text-center">
+						<div class="col-md-8 col-lg-6">
+								<div class="header">
+										<h3>Arrival Product</h3>
+										<h2><b>Popular Products</b></h2>
+								</div>
+						</div>
+				</div>
+				<div class="row">
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-1" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="productreview.html"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-2" class="single-product">
+										<div class="part-1">
+												<span class="discount">15% off</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="productreview.html"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-3" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-4" class="single-product">
+										<div class="part-1">
+												<span class="new">new</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-5" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-6" class="single-product">
+										<div class="part-1">
+												<span class="discount">15% off</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-7" class="single-product">
+										<div class="part-1">
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-old-price">$79.99</h4>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+								<div id="product-8" class="single-product">
+										<div class="part-1">
+												<span class="new">new</span>
+												<ul>
+														<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+														<li><a href="#"><i class="fas fa-heart"></i></a></li>
+														<li><a href="#"><i class="fas fa-plus"></i></a></li>
+														<li><a href="#"><i class="fas fa-expand"></i></a></li>
+												</ul>
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">Here Product Title</h3>
+												<h4 class="product-price">$49.99</h4>
+										</div>
+								</div>
+						</div>
+            
+				</div>
+		</div>
+</section>
+
+<!-- Category Product -->
+ <!-- Filter -->
+ <section  data-aos="fade-up"
+ data-aos-offset="200"
+ data-aos-delay="50"
+ data-aos-duration="1000"
+ data-aos-easing="ease-in-out">
+   <div class="filter-section">
+     <ul>
+       <li data-filter="all" class="active">All</li>
+       <li data-filter="mens">Mens</li>
+       <li data-filter="womens">Womens</li>
+       <li data-filter="kids">Kids</li>
+     </ul> 
+     <div class="products">
+       <!-- mens -->
+       <div class="product col-lg-3" data-filter="mens" >
+         <div class="dress">
+           <img src="assates\Images\Category\men1.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Men Shirt Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+          <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="mens">
+         <div class="dress">
+           <img src="assates\Images\Category\men2.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Men Shirt Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="mens">
+         <div class="dress">
+           <img src="assates\Images\Category\men3.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Men Shirt Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="mens">
+         <div class="dress">
+           <img src="assates\Images\Category\men4.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Men Shirt Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="mens">
+         <div class="dress">
+           <img src="assates\Images\Category\men5.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Men Shirt Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="mens">
+         <div class="dress">
+           <img src="assates\Images\Category\men6.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Men Shirt Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+<!-- womens -->
+       <div class="product col-lg-3" data-filter="womens">
+         <div class="dress">
+           <img src="assates\Images\Category\women1.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Dress Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="womens">
+         <div class="dress">
+           <img src="assates\Images\Category\women2.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Dress Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="womens">
+         <div class="dress">
+           <img src="assates\Images\Category\women3.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Dress Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="womens">
+         <div class="dress">
+           <img src="assates\Images\Category\women4.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Dress Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="womens">
+         <div class="dress">
+           <img src="assates\Images\Category\women5.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Dress Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+       <div class="product col-lg-3" data-filter="womens">
+         <div class="dress">
+           <img src="assates\Images\Category\women6.jpg" class="img-fluid mt-2" alt="">
+           <h3 class="text-danger">Womens Dress Demo 1</h3>
+           <h4>$158 <del>$200</del></h4>
+           <div class="stars mb-3">
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+             <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+           </div>
+           <button type="button" class="btn btn-danger">Add To Cart</button>
+          </div>
+       </div>
+<!-- Kids -->
+<div class="product col-lg-3" data-filter="kids">
+  <div class="dress">
+    <img src="assates\Images\Category\kid1.jpg" class="img-fluid mt-2" alt="">
+    <h3 class="text-danger">Kids Dress Demo 1</h3>
+    <h4>$158 <del>$200</del></h4>
+    <div class="stars mb-3">
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
+   </div>
+</div>
+<div class="product col-lg-3" data-filter="kids">
+  <div class="dress">
+    <img src="assates\Images\Category\kid2.jpg" class="img-fluid mt-2" alt="">
+    <h3 class="text-danger">Kids Dress Demo 1</h3>
+    <h4>$158 <del>$200</del></h4>
+    <div class="stars mb-3">
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
+   </div>
+</div>
+<div class="product col-lg-3" data-filter="kids">
+  <div class="dress">
+    <img src="assates\Images\Category\kid3.jpg" class="img-fluid mt-2" alt="">
+    <h3 class="text-danger">Kids Dress Demo 1</h3>
+    <h4>$158 <del>$200</del></h4>
+    <div class="stars mb-3">
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
+   </div>
+</div>
+<div class="product col-lg-3" data-filter="kids">
+  <div class="dress">
+    <img src="assates\Images\Category\kid4.jpg" class="img-fluid mt-2" alt="">
+    <h3 class="text-danger">Kids Dress Demo 1</h3>
+    <h4>$158 <del>$200</del></h4>
+    <div class="stars mb-3">
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
+   </div>
+</div>
+<div class="product col-lg-3" data-filter="kids">
+  <div class="dress">
+    <img src="assates\Images\Category\kid5.jpg" class="img-fluid mt-2" alt="">
+    <h3 class="text-danger">Kids Dress Demo 1</h3>
+    <h4>$158 <del>$200</del></h4>
+    <div class="stars mb-3">
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
+   </div>
+</div>
+<div class="product col-lg-3" data-filter="kids">
+  <div class="dress">
+    <img src="assates\Images\Category\kid6.jpg" class="img-fluid mt-2" alt="">
+    <h3 class="text-danger">Kids Dress Demo 1</h3>
+    <h4>$158 <del>$200</del></h4>
+    <div class="stars mb-3">
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star" style="color: #fdd408;"></i>
+      <i class="fa-solid fa-star-half" style="color: #fdd408;"></i>
+    </div>
+    <button type="button" class="btn btn-danger">Add To Cart</button>
+   </div>
+</div>
+   </div>
+ </section>
+
+<!-- Special -->
+
+<section class="section-products slider" id="special"  data-aos="fade-down"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false">
+
+<div class="d-flex justify-content-center text-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="header">
+          <h3>Special</h3>
+            <h2><b>Special Product</b></h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row slider_slick">
+
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item1"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item2"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+  
+      
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item3"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item4"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item5"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item6"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item7"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item8"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item9"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item10"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item11"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-lg-3">
+        <div class="special-product text-center">
+          <div class="product-img1 item12"></div>
+          <div class="card-title">
+            <h4>Product Title</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <h6>$200 <del>$300</del></h6>
+          <a href="#" class="btn btn-danger text-uppercase mb-2">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</section>
+
+<section class="deal" id="deal">
+  <div class="d-flex justify-content-center text-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="header">
+          <h3>Deal</h3>
+            <h2><b>Summer Sale</b></h2>
+        </div>
+    </div>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-7 text-center text-lg-start" data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false">
+        <div class="countdown-container">
+          <h2 class="text-uppercase">Title Of The Product</h2>
+          <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis fuga nemo aperiam, doloremque molestiae aliquid enim ullam nobis excepturi, magnam illo, quam quia odio possimus consequatur quas? Quam, harum!</p>
+          <ul class="list-unstyled countdown-counter">
+            <li><span class="fs-1 d-block" id="days">00</span>Days</li>
+            <li><span class="fs-1 d-block" id="hours">00</span>Hr</li>
+            <li><span class="fs-1 d-block" id="min">00</span>Min</li>
+            <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+          </ul>
+          <span class="countdown-price h3 d-block mb-4">$200 <del>$350</del></span>
+          <a href="#" class="btn btn-danger text-uppercase mt-4">Add To Cart</a>
+        </div>
+      </div>
+    
+    <div class="col-sm-12 col-lg-5" data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+      <div class="special-img position-relative">
+        <span class="sale-text">Sale</span>
+        <img src="assates\Images\Sale2.jpg" class="img-fluid" alt="">
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+</section>
+
+<section id="banner-adv" class="banner-adv text-center d-flex">
+  <h4>Repire Service</h4>
+  <h2 class=" fw-bold">Up To <span>70& Off</span> - All T-shirts & Sarees</h2>
+  <button type="button" class="btn btn-danger mt-4 ">Explore More</button>
+</section>
+
+
+
+<section class="contact" id="contact">
+  <div class="d-flex justify-content-center text-center mb-4">
+    <div class="col-md-8 col-lg-6">
+        <div class="header">
+            <h2><b>Contact Us</b></h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-md-5" data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+      <h4 class="fw-bold">Contact Info</h4>
+      <ul class="info list-unstyled">
+        <li class="d-flex align-items-center">
+          <span class="pe-3 fa-solid fa-location-dot fs-5"></span>
+          <p><a href="">Sagardighi, West Bengal</a></p>
+        </li>
+        <li class="d-flex align-items-center">
+          <span class="pe-3 fa-solid fa-phone fs-5"></span>
+          <p><a href="">+91 123-456-7890</a></p>
+        </li>
+        <li class="d-flex align-items-center">
+          <span class="pe-3 fa-solid fa-envelope fs-5"></span>
+          <p><a href="">Shop@Example.com</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4" data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
+      <form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="form-group">
+             <textarea class="textarea" name="massage" id="massage" cols="30" rows="4" placeholder="Enter Your Massage Here"></textarea>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <button class="btn btn-danger"><span class="fa-solid fa-paper-plane"></span> Send Massage</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <img src="assates\Images\logo.png" width="80" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, est, aut adipisci consequatur eligendi corporis facilis vero quas, quo quibusdam sit et nihil itaque repudiandae excepturi eius commodi delectus quis?</p>
+          <h3>We Accept</h3>
+          <div class="card-area">
+            <!-- <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-paypal"></i> -->
+            <img src="assates\Images\all-cards" width="200" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h2>Quick Links</h2>
+            <ul>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Offers</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Arrivals</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Specials</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Cart</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h2>Categories</h2>
+            <ul>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Mens</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Womens</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Kids</a></li>
+              <li><span class="fa-solid fa-arrow-right"></span> <a href="">Babies</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h2>NewsLetter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore aut iste cupiditate a quia sunt.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter Your Email..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-paper-plane"></i></span>
+          </div>
+          <h2>Follow Us On</h2>
+          <p class="socials">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-quora"></i>
+            <i class="fa-brands fa-"></i>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="p-3 copyright">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+          <p class="my-0">copyright © 2023 <a href="#home">Facino</a> All Right Reserved</p>
+        </div>
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+          <p>Designed By <a href="#">Tathagata Sanyal</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- scroll back to top -->
+<div id="scrollUp" title="Scroll To Top">
+  <a href="#home" class="scrollUp"><span class="fa-solid fa-arrow-up fs-4 text-white"></span></a>
+</div>
+
+
+
+    <!-- Bootstrap 5.3.1 Latest Ver Js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Jquery CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Slick Carousel CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Local JS File Link -->
+    <script src="assates\JS\app.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
